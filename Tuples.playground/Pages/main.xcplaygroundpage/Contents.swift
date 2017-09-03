@@ -16,8 +16,11 @@
  */
 // write your code here
 
+var person: (name: String, age: Int)
 
 
+person.name = "John"
+person.age = 30
 
 
 
@@ -30,6 +33,7 @@
 
 
 
+print(person.name, person.age)
 
 
 
@@ -41,8 +45,9 @@
 // write your code here
 
 
+person.age += 1
 
-
+print(person.name, person.age)
 
 
 
@@ -54,7 +59,7 @@
 
 
 
-
+print("Happy \(person.age)st Birthday, \(person.name)")
 
 
 
@@ -65,17 +70,20 @@
 // write your code here
 
 
+var someone: (name: String, age: Int)
 
 
 
 
+someone.name = "Bob"
 
+someone.age = 43
 
 /*: question6
  ### 6. Print out "<Name> is <Age> years old" for the `someone` variable you created in Question 5.
  */
 // write your code here
-
+print(someone.name, someone.age)
 
 
 
@@ -86,6 +94,8 @@
  ### 7. It is `someone`'s birthday! Increment `someone`'s age by one year.
  */
 // write your code here
+
+someone.age += 1
 
 
 
@@ -98,7 +108,7 @@
  */
 // write your code here
 
-
+print("Happy \(someone.age)th Birthday, \(someone.name)")
 
 
 
@@ -111,6 +121,7 @@
 // write your code here
 
 
+let human = (Name: "Jimmy Johnson", age: 73)
 
 
 
@@ -120,6 +131,7 @@
 /*:
  ### 10. Can you change `human`'s age? Why or why not?
  */
+//"human.age" can not be chagned as its declared as a "constant" with a key word let.
 
 
 
